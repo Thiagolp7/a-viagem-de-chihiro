@@ -1,7 +1,14 @@
 import Head from 'next/head'
+import { Header } from '../components/Header'
 
 export default function Home() {
   return (
-    <h1>Olá Chihiro</h1>
+    <>
+      <Head>
+        <title>A Viagem de Chihiro</title>
+      </Head>
+
+      <Header/>
+    </>
   )
 }
