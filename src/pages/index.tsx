@@ -7,8 +7,6 @@ export default function Home() {
       <Head>
         <title>A Viagem de Chihiro</title>
       </Head>
-
-      <Header/>
     </>
   )
 }
