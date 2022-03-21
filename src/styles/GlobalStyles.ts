@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     --green-500: #628E75;
     --green-800: #1A4855;
+    --blue-900: #261953;
 
     --primary: var(--green-500);
     --secondary: var(--green-800);
@@ -21,8 +22,8 @@ export const GlobalStyle = createGlobalStyle`
   }
     
   html{
-    width: 100vw;
-    height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
 
     @media (max-width: 1080px) {
      font-size : 93.75% ;
@@ -34,9 +35,12 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: var(--bg-gradient);
+    color: var(--neutral);
+    background: no-repeat var(--bg-gradient) ;
+    background-size: cover;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
   }
 
   body, input, textarea, button {

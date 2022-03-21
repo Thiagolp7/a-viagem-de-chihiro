@@ -5,11 +5,10 @@ import { GlobalStyle } from "../styles/GlobalStyles"
 function MyApp({ Component, pageProps }) {
   return (
   <>
-    <Header/>
+    <Header/> 
     <Component {...pageProps} />
     <GlobalStyle/>
   </>
-  
   )
 }
 
