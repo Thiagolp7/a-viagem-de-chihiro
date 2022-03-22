@@ -135,8 +135,6 @@ export const Button = styled.button<ButtonProps>`
     }
     
   }
-
-  
 `
 export const ImgContainer = styled.div`
   width: 100%;
@@ -151,8 +149,6 @@ export const ImgContainer = styled.div`
 
     width: ${pixelToRem(244)} ;
     height: ${pixelToRem(340)} ;
-
-   
     position: relative;
     display: block;
 
