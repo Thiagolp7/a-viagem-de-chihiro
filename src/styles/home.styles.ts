@@ -232,7 +232,7 @@ export const ImgContainer = styled.div`
 
   @media screen and (max-width: 930px){
     align-self: center;
-    margin-top: 40px;
+    margin-top: 15px;
 
     .ghost-1 {
       width: ${pixelToRem(200)} ;
