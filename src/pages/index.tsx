@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import { useState } from 'react'
 import { VideoModal } from '../components/VideoModal'
-import {  Button, Container, Content, ImgContainer } from '../styles/home.styles'
+import { Button } from '../components/Button'
+import { Container, Content, ImgContainer } from '../styles/home.styles'
+
 
 export default function Home() {
   const [videoModalIsOpen, setVideMOdalIsOpen] = useState(false);
@@ -38,8 +40,11 @@ export default function Home() {
                 Assitir Agora
               </span>
             </Button>
-            <Button onClick={() => handleVideoModalOpen(true)}>
-              <span>Assista o trailer</span>
+            <Button 
+              onClick={() => handleVideoModalOpen(true)}>
+              <span>
+                Assita o Trailer
+              </span>
             </Button>
           </div>
         </Content>

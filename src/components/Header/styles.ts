@@ -28,6 +28,10 @@ export const SocialLinks = styled.nav`
   align-items: center;
 
   a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     & + a {
       margin-left: ${pixelToRem(28)};
     }

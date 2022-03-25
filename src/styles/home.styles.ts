@@ -13,7 +13,7 @@ export const Container = styled.main`
   align-items: center;
 
 
-  @media screen and (max-width: 930px ){
+  @media screen and (max-width: 930px){
     flex-direction: column-reverse;
     margin-top: ${pixelToRem(0)};
     gap: 20px;
@@ -53,20 +53,14 @@ export const Content = styled.div`
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 18px;
+
     margin-top: ${pixelToRem(46)};
     margin-left: 16px ;
 
-
-    button {
-      & + button {
-        margin-left: 18px;
-      }
-  
-      @media screen and (max-width: 480px) {
-        &:last-child {
-          display: none;
-        }
-      }
+    @media screen and (max-width: 480px) {
+      flex-direction: column-reverse ;
+      align-items: flex-start;
     }
   }
 
@@ -82,60 +76,6 @@ export const Content = styled.div`
   }
 `
 
-interface ButtonProps {
-  bgOn?: Boolean;
-}
-
-export const Button = styled.button<ButtonProps>`
-  color: var(--neutral);
-  background: ${({ bgOn }) => bgOn ? 'var(--primary)' : 'transparent' };
-  padding: ${pixelToRem(8)} ${pixelToRem(32)};
-  border: 2px solid var(--primary);
-
-  transform: skewX(-35deg);
-  transition: .3s ease-in;
-
-  img {
-    width: ${pixelToRem(20)};
-    height: ${pixelToRem(20)};
-    margin-right: ${pixelToRem(10)};
-  }
-
-  span {
-    display: inline-block;
-    font-size: ${pixelToRem(16)};
-    line-height: ${pixelToRem(28.8)};
-    font-weight: 500;
-    white-space: nowrap;
-
-
-    transform: skewX(35deg);
-    text-transform: uppercase;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  &:hover {
-    filter: brightness(.9);
-    background: ${({bgOn}) => ( !bgOn ? '#628E75' : '')};
-
-    span {
-      img {
-        animation: shake 1s infinite alternate;
-      }
-    }
-
-  }
-
-  @keyframes shake {
-    100% {
-      transform: translateX(3px);
-    }
-    
-  }
-`
 export const ImgContainer = styled.div`
   width: 100%;
   display: flex;
@@ -276,6 +216,4 @@ export const ImgContainer = styled.div`
       }
     }
   }
-
-  
 `
