@@ -3,16 +3,17 @@
 > - 🖥️ Figma layout: https://www.figma.com/file/VDRCPVEywzdweh8BGnu0M5/Rocket-NFTs/duplicate
 > - 🔗 Deploy: https://a-viagem-de-chihiro.vercel.app/
 
-https://user-images.githubusercontent.com/92824127/156897066-39f6e9e0-87a4-4a15-a98f-1cc6075bbecd.mp4
+
+
+https://user-images.githubusercontent.com/92824127/160183199-2c3fcf9b-fbbd-4394-b625-155a7f0b3c8f.mp4
+
+
 
 ---
 ## 📌 Ajustes e melhorias
 
 - [x] Responsividade para diversas telas.
-- [x] Criação do menu mobile.
-- [x] Música de background.
 - [x] Animações
-- [x] Ajustes em alguns espaçamentos.  
 
 --- 
 ## :hammer_and_wrench: Tecnologias
