@@ -44,11 +44,11 @@ export const SocialLinks = styled.nav`
     @media (min-width: 930px) {
       &:hover {
         img {
-          animation: fadeIn 1s infinite alternate;
+          animation: fadeInSocial 1s infinite alternate;
         }
       }
-  
-      @keyframes fadeIn {
+
+      @keyframes fadeInSocial {
         100% {
           transform: translateY(-5px);
           opacity: 50%;
