@@ -15,6 +15,32 @@ https://user-images.githubusercontent.com/92824127/160183199-2c3fcf9b-fbbd-4394-
 - [x] Responsividade para diversas telas.
 - [x] Animações
 
+
+---
+## :rocket: Execute o projeto
+
+#### 💻 Para rodar o projeto você vai precisar:
+<a href="https://nodejs.org/en/" target="_blank"><img src="https://img.shields.io/badge/Node-v16.13.2-brightgreen" alt="nodejs"></a>
+<a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/Git-2.35.1%20-red" alt="git"></a> 
+
+---
+#### :compass: Passo a passo
+
+1. Clone o repositório 
+```bash
+git clone git@github.com:Thiagolp7/ignite-dtmoney.git
+```
+
+2. Entre na pasta, instale as depêndencias e rode o projeto com:
+```bash
+cd ignite-dtmoney && npm install && npm run dev
+```
+
+3. Acesse no seu navegador 
+```bash
+http://localhost:3000/
+```
+
 --- 
 ## :hammer_and_wrench: Tecnologias
 
