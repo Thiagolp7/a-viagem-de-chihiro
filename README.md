@@ -1,12 +1,10 @@
- # 👻 A Viagem de Chihiro
-> - 👉 Desafio do Iuri Code - Desafio 05
+# 👻 A Viagem de Chihiro
+> - 👉 Desafio do Iuri Silva - Desafio 05
 > - 🖥️ Layout - Desafio 05: https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=5854%3A2
 > - 🔗 Deploy: https://a-viagem-de-chihiro.vercel.app/
 
 
-
 https://user-images.githubusercontent.com/92824127/160183199-2c3fcf9b-fbbd-4394-b625-155a7f0b3c8f.mp4
-
 
 
 ---
@@ -15,31 +13,6 @@ https://user-images.githubusercontent.com/92824127/160183199-2c3fcf9b-fbbd-4394-
 - [x] Responsividade para diversas telas.
 - [x] Animações
 
-
----
-## :rocket: Execute o projeto
-
-#### 💻 Para rodar o projeto você vai precisar:
-<a href="https://nodejs.org/en/" target="_blank"><img src="https://img.shields.io/badge/Node-v16.13.2-brightgreen" alt="nodejs"></a>
-<a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/Git-2.35.1%20-red" alt="git"></a> 
-
----
-#### :compass: Passo a passo
-
-1. Clone o repositório 
-```bash
-git clone git@github.com:Thiagolp7/ignite-dtmoney.git
-```
-
-2. Entre na pasta, instale as depêndencias e rode o projeto com:
-```bash
-cd ignite-dtmoney && npm install && npm run dev
-```
-
-3. Acesse no seu navegador 
-```bash
-http://localhost:3000/
-```
 
 --- 
 ## :hammer_and_wrench: Tecnologias
@@ -56,5 +29,31 @@ http://localhost:3000/
   </a>
  
 </div>
-  
+
+
+---
+## :rocket: Execute o projeto
+
+#### 💻 Para rodar o projeto você vai precisar:
+<a href="https://nodejs.org/en/" target="_blank"><img src="https://img.shields.io/badge/Node-v16.13.2-brightgreen" alt="nodejs"></a>
+<a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/Git-2.35.1%20-red" alt="git"></a> 
+
+---
+#### :compass: Passo a passo
+
+1. Clone o repositório 
+```bash
+git clone git@github.com:Thiagolp7/a-viagem-de-chihiro.git
+```
+
+2. Entre na pasta, instale as depêndencias e rode o projeto com:
+```bash
+cd a-viagem-de-chihiro && npm install && npm run dev
+```
+
+3. Acesse no seu navegador 
+```bash
+http://localhost:3000/
+```
+
 
