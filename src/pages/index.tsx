@@ -11,11 +11,23 @@ export default function Home() {
 
   function handleVideoModalOpen(trailer: boolean){
     setVideMOdalIsOpen(true)
+    setBodyScroll(false)
     trailer ? setTrailer(true) : setTrailer(false)
   }
   
   function handleVideoModalClose(){
     setVideMOdalIsOpen(false)
+    setBodyScroll(true)
+  }
+
+  function setBodyScroll(scroll: true| false){
+    if(scroll){
+      document.body.style.overflow = 'initial';
+    }
+    if(!scroll){
+      document.body.style.overflow = 'hidden';
+      return
+    }
   }
 
   return (

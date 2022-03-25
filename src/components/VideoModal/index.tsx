@@ -18,6 +18,7 @@ export function VideoModal({ videoModalIsOpen, handleVideoModalClose, trailer }:
       onRequestClose={handleVideoModalClose}
       overlayClassName="react-modal-overlay"
       className="react-modal-content"
+      preventScroll={true}
     >
       <button 
         className="react-modal-close"
