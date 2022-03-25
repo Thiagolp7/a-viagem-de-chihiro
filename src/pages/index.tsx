@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { VideoModal } from '../components/VideoModal'
 import { Button } from '../components/Button'
 import { Container, Content, ImgContainer } from '../styles/home.styles'
+import { GetStaticProps } from 'next'
 
 
 export default function Home() {
@@ -81,3 +82,11 @@ export default function Home() {
     </>
   )
 }
+
+export const getStaticProps: GetStaticProps = async() => {
+  return {
+    props: {},
+    revalidate: 60 * 60 * 24 //24 hours
+  }
+}
+
