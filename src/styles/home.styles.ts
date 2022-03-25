@@ -61,14 +61,15 @@ export const Content = styled.div`
     @media screen and (max-width: 480px) {
       flex-direction: column-reverse ;
       align-items: flex-start;
+      gap: 15px;
     }
   }
 
-  @media screen and (max-width: 930px ){
+  @media screen and (max-width: 930px){
     align-self: center;
   }
 
-  @media screen and (max-width: 480px ){
+  @media screen and (max-width: 480px){
     h1 {
       font-size: ${pixelToRem(48)};
       line-height: ${pixelToRem(52)};

@@ -64,11 +64,15 @@ export const GlobalStyle = createGlobalStyle`
   .react-modal-content{
     width:100%;
     max-width: 1000px;
-    background: var(--bg-gradient) ;
+    background: transparent ;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+
+    @media (orientation: landscape) {
+      width: 75%;
+    }
   }
 
   .react-modal-close {
@@ -77,7 +81,7 @@ export const GlobalStyle = createGlobalStyle`
     position: absolute;
     padding: 9px;
     top: -48px;
-    right: 0;
+    right: -9px;
     z-index: 10;
 
     svg {
@@ -85,10 +89,16 @@ export const GlobalStyle = createGlobalStyle`
       height: 30px;
       color: #fff ;
     }
+
+    @media (orientation: landscape) {
+      width: 70%;
+      top: -9px;
+      right: -40%;
+    }
   }
 
   .react-modal-overlay{
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.8);
     position: fixed;
     top: 0; right: 0; bottom: 0; left: 0;
     z-index: 9999;
@@ -100,8 +110,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   @keyframes fadeIn{
-      100% {
-        opacity: 100%;
-      }
+    100% {
+      opacity: 100%;
     }
+  }
 `
