@@ -22,5 +22,13 @@ https://user-images.githubusercontent.com/92824127/160183199-2c3fcf9b-fbbd-4394-
   <a href="https://nextjs.org/" target="_blank">
     <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next JS Badge"/>
   </a>
+   <a href="https://styled-components.com/" target="_blank">
+    <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" alt="Styled Components Badge"/>
+  </a>
+   <a href="https://www.typescriptlang.org/" target="_blank">
+    <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="Typescript Badge"/>
+  </a>
+ 
+</div>
   
 
