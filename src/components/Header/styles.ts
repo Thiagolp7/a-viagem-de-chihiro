@@ -32,6 +32,8 @@ export const SocialLinks = styled.nav`
     align-items: center;
     justify-content: center;
 
+    
+
     & + a {
       margin-left: ${pixelToRem(28)};
     }
@@ -39,6 +41,21 @@ export const SocialLinks = styled.nav`
     img {
       width: ${pixelToRem(24)};
       height: ${pixelToRem(24)};
+    }
+
+    @media (min-width: 930px) {
+      &:hover {
+        img {
+          animation: fadeIn 1s infinite alternate;
+        }
+      }
+  
+      @keyframes fadeIn {
+        100% {
+          transform: translateY(-5px);
+          opacity: 50%;
+        }
+      }
     }
   }
 `
