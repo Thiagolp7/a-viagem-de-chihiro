@@ -19,14 +19,8 @@ https://user-images.githubusercontent.com/92824127/160183199-2c3fcf9b-fbbd-4394-
 ## :hammer_and_wrench: Tecnologias
 
 <div align="left">
-  <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank">
-    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=next5&logoColor=white" alt="HTML5 Badge"/>
+  <a href="https://nextjs.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next JS Badge"/>
   </a>
-  <a href="https://sass-lang.com/" target="_blank">
-    <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="SASS Badge"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="Javascript Badge"/>
-  </a>
-</div>
+  
 
