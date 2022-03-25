@@ -1,6 +1,6 @@
- # 🚀 Rocket NFT's 
-> - 👉 Desafio do Discover - Rocketseat
-> - 🖥️ Figma layout: https://www.figma.com/file/VDRCPVEywzdweh8BGnu0M5/Rocket-NFTs/duplicate
+ # 👻 A Viagem de Chihiro
+> - 👉 Desafio do Iuri Code - Desafio 05
+> - 🖥️ Layout - Desafio 05: https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=5854%3A2
 > - 🔗 Deploy: https://a-viagem-de-chihiro.vercel.app/
 
 
