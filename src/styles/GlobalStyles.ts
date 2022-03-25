@@ -60,4 +60,48 @@ export const GlobalStyle = createGlobalStyle`
     opacity: 0.6;
     cursor: not-allowed;
   }
+
+  .react-modal-content{
+    width:100%;
+    max-width: 1000px;
+    background: var(--bg-gradient) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .react-modal-close {
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    padding: 9px;
+    top: -48px;
+    right: 0;
+    z-index: 10;
+
+    svg {
+      width: 30px;
+      height: 30px;
+      color: #fff ;
+    }
+  }
+
+  .react-modal-overlay{
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0%;
+    animation: fadeIn 2s forwards;
+  }
+
+  @keyframes fadeIn{
+      100% {
+        opacity: 100%;
+      }
+    }
 `
