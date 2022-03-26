@@ -9,7 +9,7 @@ export function VideoContainer({trailer}: VideoContainerProps){
   const videoSrc = 
     trailer 
     ? 'https://www.youtube.com/embed/ByXuk9QqQkk' // trailer link
-    : 'https://www.youtube.com/embed/gx-cQj-3KVI' // video link
+    : 'https://www.youtube.com/embed/oWt2aSLBwkw' // video link
   
   return (
     <VidWrapper>
