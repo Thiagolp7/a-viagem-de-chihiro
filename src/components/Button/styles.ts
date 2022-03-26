@@ -4,7 +4,6 @@ import { pixelToRem } from '../../utils/pixeltorem'
 
 interface ButtonContainerProps {
   bgOn?: boolean;
-  backgroundColor: string;
 }
 
 export const ButtonContainer = styled.button<ButtonContainerProps>`
