@@ -30,12 +30,13 @@ export default class MyDocument extends Document {
 
   render(){
     return (
-      <Html>
+      <Html lang="pt-BR">
         <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet"/> 
         <link rel="shortcut icon" href="favicon.svg" type="image/svg" />
+        <meta name="description" content="Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles que a desobedecem são transformados em animais." />
         </Head>
         <body>
           <Main/>
